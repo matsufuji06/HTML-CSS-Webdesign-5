@@ -116,3 +116,17 @@ img {
 #news .page-title {
   text-align: center;
 }
+
+/* フッター
+--------------------------- */
+footer {
+  background-color: #432;
+  text-align: center;
+  padding: 26px 0px;
+
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
