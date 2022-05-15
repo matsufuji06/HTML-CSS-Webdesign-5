@@ -119,12 +119,18 @@ img {
 
 /* 記事部分 */
 article {
-  width: 74%;
-
+  width: 60%;
+  order: 2;
 }
 
 aside {
   width: 22%;
+  order: 3;
+}
+
+.ad {
+  order: 1;
+
 }
 
 .news-contents {
@@ -288,5 +294,10 @@ aside {
 .post-title,
 .post-cat {
     margin-left: 80px;
+}
+
+.ad {
+  order: 1;
+  display: none;
 }
 }
